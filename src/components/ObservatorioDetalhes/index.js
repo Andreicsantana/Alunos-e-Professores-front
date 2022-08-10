@@ -12,7 +12,6 @@ function index({src,text}) {
     <Card style={{ width: '18rem' }} >
       <Card.Img variant="top" src={src} />
       <Card.Body >
-        <Card.Text>{text}</Card.Text>
       </Card.Body>
     </Card>
     </Col>

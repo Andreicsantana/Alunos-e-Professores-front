@@ -6,11 +6,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    width: 50%;
     
 }
 
 .LogoIntec{
-    width: 29rem;
-    height: 29rem;
+    width: 100%;
 }
