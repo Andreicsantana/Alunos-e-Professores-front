@@ -32,6 +32,7 @@ function index()  {
             })}
           </Row>
         </Container>
+        <textarea className='descricao'>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa</textarea>
         </main>
       </div>
     ) 
