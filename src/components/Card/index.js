@@ -8,35 +8,44 @@ import './style.css'
 
 function index() {
   return (
-  <CardGroup  className = 'CardG'>
+    <>
+    <CardGroup className = 'CardG'>
 
-  <Link to ='/Avaliacao' className='CardLink'>
-  <Card className = 'ItemCard1'>
+      
+      <Card className = 'ItemCard1'>
+      <Link to = '/Avaliação' className = 'CardLink'>
+      <Card.Body className='body'>
       <BsFillFileEarmarkCheckFill size = {'4em'} /> 
-      <Card.Title >Avaliações</Card.Title>
-  </Card>
-  </Link>
+        <Card.Title>Avaliação do TCC</Card.Title>
+      </Card.Body>
+      </Link>
+      </Card>
+      
 
-  <Link to ='/FeedBack' className='CardLink'>
-  <Card className = 'ItemCard1'>
-    <BsFillHandThumbsUpFill size = {'4em'} /> 
-    <Card.Title className=''>FeedBack</Card.Title>
-  </Card>
-  </Link>
+      
+    <Card className = 'ItemCard1'>
+    <Link to = '/Avaliação' className = 'CardLink'>
+      <Card.Body className='body'>
+      <BsFillHandThumbsUpFill size = {'4em'} /> 
+        <Card.Title>Feedback</Card.Title>
+      </Card.Body>
+    </Link>
+    </Card>
+    
 
-  <Link to ='/Observatorio' className='CardLink'>
-  <Card className = 'ItemCard1'>  
-    <BsFillEyeFill size = {'4em'} />
-    <Card.Title className=''>Observatorio</Card.Title>
-  </Card>
-  </Link>
+    
+    <Card  className = 'ItemCard1'>
+    <Link to = '/Observatorio' className = 'CardLink'>
+      <Card.Body className='body'>
+      <BsFillEyeFill size = {'4em'} />
+        <Card.Title>Observatório</Card.Title>
+      </Card.Body>
+    </Link>
+    </Card>
+    
 
-
-  </CardGroup> 
-  
-  
-  
-
+    </CardGroup>
+    </>
   ) 
 }
 
