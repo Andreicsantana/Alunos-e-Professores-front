@@ -1,18 +1,12 @@
 .HeaderLink{
-    color: #000;
-    text-decoration: none;
-    transition: 0.3s;
-  } 
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s;
+} 
 
-  a :hover, .HeaderLink :hover {
-    color: rgb(0, 0, 0) !important;
-    font-size:larger ;
-    transition: 0.3s;
-
+a:hover, .HeaderLink :hover {
+  color: rgb(0, 0, 0) !important;
 }
-
-
-
 
 .HeaderLogo{
   width: 2%;

@@ -17,7 +17,7 @@ function index()  {
       <div className='linha'>
         <main>
         <header>                                    
-            <Button variant="outline-secondary" >
+            <Button variant="outline-secondary" className='btnMargin' >
                 Adicionar documento
             </Button>
         </header>

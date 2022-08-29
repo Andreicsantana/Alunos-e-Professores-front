@@ -1,0 +1,57 @@
+.IntecFeed{
+    color: #fff;
+    text-decoration: underline 10%;
+}
+
+.pai{
+    margin: 2rem;
+    padding: 2rem;
+    border: solid 2px #fff;
+    width: 200vh;
+    height: 110vh;  
+}
+  
+.containerFeed{
+    background-color: #fff;
+    width: 50vw;
+    height: 60vh;
+    margin-top: 10%;
+    margin-left: 22%;
+}
+
+.FormHeader{
+    background-color: rgb(10, 1, 145);
+    height: 12%;
+    text-align: left;
+    justify-items: right;
+    padding: 0.1rem;
+}
+
+.Material{
+    margin-top: 1%;
+    margin-left: 2%;
+    color: #fff;
+}
+
+.btnCancelar{
+    margin-left: 60%;
+    background-color: red !important;
+    border: red !important;
+}
+
+.btnEnviar{
+    margin-left: 3%;
+}
+
+.bodyForm{
+    padding: 2rem;
+    text-align: left;
+}
+
+.selectfeed{
+    margin-bottom: 2%;
+}
+
+.textfeedback{
+    width: 100%;
+}

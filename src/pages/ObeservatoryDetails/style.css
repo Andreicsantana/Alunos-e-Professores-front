@@ -19,3 +19,7 @@
     gap: 1rem;
   }
 
+.btnMargin{
+  padding: 2rem;
+  margin-left: 90%;
+}

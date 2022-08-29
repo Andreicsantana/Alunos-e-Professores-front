@@ -24,7 +24,7 @@ function index() {
 
       
     <Card className = 'ItemCard1'>
-    <Link to = '/Avaliação' className = 'CardLink'>
+    <Link to = '/Feedback1' className = 'CardLink'>
       <Card.Body className='body'>
       <BsFillHandThumbsUpFill size = {'4em'} /> 
         <Card.Title>Feedback</Card.Title>

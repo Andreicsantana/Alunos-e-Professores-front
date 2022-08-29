@@ -1,0 +1,67 @@
+.IntecFeed{
+    color: #fff;
+    text-decoration: underline 10%;
+}
+
+.pai{
+    margin: 2rem;
+    padding: 2rem;
+    border: solid 2px #fff;
+    width: 200vh;
+    height: 110vh;  
+    position: relative;
+}
+  
+.containerFeed{
+    background-color: #fff;
+    width: 50vw;
+    height: 60vh;
+    margin-top: 10%;
+    margin-left: 22%;
+}
+
+.FormHeader{
+    background-color: rgb(10, 1, 145);
+    height: 12%;
+    text-align: left;
+    justify-items: right;
+    padding: 0.1rem;
+}
+
+.alunofeed{
+    margin-top: 1%;
+    margin-left: 2%;
+    color: #fff;
+}
+
+.turmafeed{
+    margin-top: 1%;
+    margin-left: 2%;
+    color: #fff;
+    
+}
+
+.bodyForm1{
+    display: flex;
+    padding: 2rem;
+}
+
+.divTurmas{
+    display: flex;
+    background-color: grey;
+    margin-top: 2%;
+    width: 100%;
+    align-items: center;
+    box-shadow: 4px 4px 6px;
+}
+
+.texto-divturma{
+    margin-top: 2%;
+    margin-left: 2%;
+    color: #fff;
+}
+
+.btnAvancar{
+    margin-left: 400%;
+}
+
