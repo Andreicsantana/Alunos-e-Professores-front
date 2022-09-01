@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import { items } from './items.js';
-import './style.css';
+import '../../styles/main.css';
 
 
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Button from 'react-bootstrap/Button';
-import './style.css'
+import '../../styles/feedback2.css'
 
 
 
@@ -16,7 +16,7 @@ function index() {
                     <header className='FormHeader'>
                         <Form.Label className='Material'>Material:</Form.Label>
                         <Link to='/Feedback1'>
-                            <Button className='btnCancelar'> Cancelar </Button>
+                            <Button variant="danger" className='btnCancelar'> Cancelar </Button>
                         </Link>
                         <Button className='btnEnviar'> Enviar </Button>
                     </header>

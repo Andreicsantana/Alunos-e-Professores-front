@@ -2,7 +2,7 @@ import React from 'react'
 import Form from 'react-bootstrap/Form';
 import {Link} from 'react-router-dom'
 import Button from 'react-bootstrap/Button';
-import './style.css'
+import '../../styles/feedback1.css'
 
 
 

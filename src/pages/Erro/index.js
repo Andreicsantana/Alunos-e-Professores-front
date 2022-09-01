@@ -1,4 +1,4 @@
-import'./style.css'
+import'../../styles/erro.css'
 
 function index()  {
   return (

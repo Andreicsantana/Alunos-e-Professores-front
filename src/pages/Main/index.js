@@ -4,7 +4,7 @@ import CardGroup from '../../components/Card/index.js';
 import Logo from '../../components/Logo/index.js';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-import './style.css';
+import '../../styles/main.css';
 
 
 

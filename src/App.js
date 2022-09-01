@@ -2,7 +2,7 @@ import './App.css';
 import { useState } from 'react';
 import Main from './pages/Main';
 import Observatorio from './pages/Observatorio';
-import ObservatoryDetails from './pages/ObeservatoryDetails';
+import Observatorio2 from './pages/Observatorio2';
 import Feedback1 from './pages/FeedBack1'
 import Feedback2 from './pages/FeedBack2'
 import Erro from './pages/Erro';
@@ -24,7 +24,7 @@ function App() {
             <Route path= '/Feedback1' element={<Feedback1/>}/>
             <Route path= '/Feedback2' element={<Feedback2/>}/>
             <Route path= '/Observatorio' element={<Observatorio/>}/>
-            <Route path= '/Observatorio/Detalhes' element={<ObservatoryDetails/>}/>
+            <Route path= '/Observatorio/Detalhes' element={<Observatorio2/>}/>
           </Routes>
         <Footer/>  
       </BrowserRouter>

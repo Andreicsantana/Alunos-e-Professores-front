@@ -5,11 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Adicoes from '../../components/ObservatorioDetalhes/index.js';
 import TextArea from '../../components/TextArea/index.js';
 import {adicoes} from './Adicoes.js';
-import {items} from '../Observatorio/items.js'
-
-
-
-import './style.css'
+import '../../styles/observatorio.css';
+import '../../styles/main.css';
 
 
 function index()  {
