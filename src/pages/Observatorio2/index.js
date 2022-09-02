@@ -19,7 +19,7 @@ function index()  {
             </Button>
         </header>
         <Container fluid >
-          <Row xs={1} md={4} >
+          <Row xs={1} md={3} >
             {adicoes.map(item => {
               return (
                 <Adicoes

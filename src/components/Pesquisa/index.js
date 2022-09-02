@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import { AiOutlineSearch } from "react-icons/ai";
-import './style.css'
+
 
 function index() {
   return (

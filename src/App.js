@@ -1,10 +1,11 @@
 import './App.css';
 import { useState } from 'react';
 import Main from './pages/Main';
+import Avaliacao from './pages/Avaliacao';
 import Observatorio from './pages/Observatorio';
 import Observatorio2 from './pages/Observatorio2';
-import Feedback1 from './pages/FeedBack1'
-import Feedback2 from './pages/FeedBack2'
+import Feedback1 from './pages/FeedBack1';
+import Feedback2 from './pages/FeedBack2';
 import Erro from './pages/Erro';
 import Header from './components/Header';
 import Footer from './components/Footer/index.js';
@@ -15,22 +16,23 @@ function App() {
 
   return (
     <>
-      <div className='App'>  
-      <BrowserRouter>
-        <Header/>
+      <div className='App'>
+        <BrowserRouter>
+          <Header />
           <Routes>
             <Route path='/' element={<Main/>}/>
-            <Route path='*' element={<Erro />}/>
-            <Route path= '/Feedback1' element={<Feedback1/>}/>
-            <Route path= '/Feedback2' element={<Feedback2/>}/>
-            <Route path= '/Observatorio' element={<Observatorio/>}/>
-            <Route path= '/Observatorio/Detalhes' element={<Observatorio2/>}/>
+            <Route path='/Avaliacao' element={<Avaliacao/>}/>
+            <Route path='/Feedback1' element={<Feedback1/>}/>
+            <Route path='/Feedback2' element={<Feedback2/>}/>
+            <Route path='/Observatorio' element={<Observatorio/>}/>
+            <Route path='/Observatorio/Detalhes' element={<Observatorio2/>}/>
+            <Route path='*' element={<Erro/>}/>
           </Routes>
-        <Footer/>  
-      </BrowserRouter>
+          <Footer />
+        </BrowserRouter>
       </div>
     </>
-    );
+  );
 }
-  
+
 export default App;

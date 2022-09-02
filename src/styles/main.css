@@ -1,7 +1,9 @@
 .linha{
-    margin: 2rem;
+    margin:auto;
+    margin-top: 2rem;
+    padding: 2rem;
     border: solid 2px #fff;
-    width: 95%;
+    width: 190vh;
     height: 95%;
   }
   

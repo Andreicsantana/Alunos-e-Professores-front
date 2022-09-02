@@ -12,7 +12,7 @@ function index() {
 
 
         <Card className='ItemCard1'>
-          <Link to='/Avaliação' className='CardLink'>
+          <Link to='/Avaliacao' className='CardLink'>
             <Card.Body className='body'>
               <BsFillFileEarmarkCheckFill size={'4em'} />
               <Card.Title>Avaliação do TCC</Card.Title>

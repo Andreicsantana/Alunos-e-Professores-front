@@ -1,0 +1,26 @@
+.doc-pag{
+  padding: 1rem;
+  background-color: #fff;
+  max-width: 105vh;
+  height: 95%;
+  margin-top: 10%;
+  margin-left: 22%;
+}
+
+.doc-header{
+  text-align: left;
+  font-size: 15px;
+}
+
+.doc-name{
+  text-align: center;
+  margin: 2rem;
+}
+
+.doc-body{
+  text-align: center;
+}
+
+.teste{
+  float: right;
+}

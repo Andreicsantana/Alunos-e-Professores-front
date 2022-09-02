@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   background-color: #0b1d3f;
-  gap:100%;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  
 }
 
